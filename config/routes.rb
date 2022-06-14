@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :tiers, only: [:index, :show, :new, :create, :edit, :update] do
+    get :characters
+  end
+  resources :characters
 end
