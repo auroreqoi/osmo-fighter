@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+easy project for a friend, working on it 1-2 hours a day
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+* Ruby 2.6.6
+* Rails 6
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
