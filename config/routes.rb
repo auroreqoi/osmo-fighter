@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :tiers, only: [:index, :show, :new, :create, :edit, :update] do
-    get :characters
-  end
+  root to: 'pages#home'
   resources :characters
 end
