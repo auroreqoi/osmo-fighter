@@ -1,0 +1,14 @@
+<div class="card-container">
+  <% @character.each do |character|%>
+  <div class="card">
+    <div class="card-image">
+      <%= cl_image_tag character.photo.key, class: 'fighter-image', crop: :fill %>
+    </div>
+    <div class="card-info">
+      <%= character.name %>
+      <%= character.group %>
+      <%= character.origin %>
+    </div>
+  </div>
+  <% end %>
+</div>
