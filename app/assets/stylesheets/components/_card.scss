@@ -1,0 +1,28 @@
+.card {
+  background-color: white;
+  width: auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px black;
+  margin: 24px;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+}
+
+.card-image {
+  text-align: center !important;
+}
+
+.fighter-image {
+  height: 200px;
+  object-fit: cover;
+  width: auto;
+  max-width: 350px;
+}

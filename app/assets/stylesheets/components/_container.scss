@@ -10,3 +10,11 @@
     font-size: 5rem;
   }
 }
+
+.card-container {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 40px;
+}
