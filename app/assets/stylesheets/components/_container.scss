@@ -1,0 +1,12 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  p {
+    position: absolute;
+    color: white;
+    top: 11rem;
+    left: 37rem;
+    font-size: 5rem;
+  }
+}
