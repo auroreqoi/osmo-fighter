@@ -5,9 +5,13 @@
       <%= cl_image_tag character.photo.key, class: 'fighter-image', crop: :fill %>
     </div>
     <div class="card-info">
-      <%= character.name %>
-      <%= character.group %>
-      <%= character.origin %>
+      <p><%= character.name %></p>
+      <p>Tier <%= character.group %></p>
+    </div>
+    <div class='hidden'>
+        <p><%= character.origin %></p>
+        <p><%= character.specialty%></p>
+        <p> Victory : <%= character.victory%></p>
     </div>
   </div>
   <% end %>
