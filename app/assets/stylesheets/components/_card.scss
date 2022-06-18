@@ -4,8 +4,16 @@
   border-radius: 5px;
   box-shadow: 2px 2px 4px black;
   margin: 24px;
+  height: 17.188rem;
   &:hover {
     transform: scale(1.2);
+    height: 20rem;
+    .hidden {
+      opacity: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
 
@@ -25,4 +33,8 @@
   object-fit: cover;
   width: auto;
   max-width: 350px;
+}
+
+.hidden {
+  opacity: 0;
 }
