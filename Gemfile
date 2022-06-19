@@ -24,6 +24,11 @@ gem 'jbuilder', '~> 2.7'
 gem 'pg'
 gem 'simple_form', github: 'heartcombo/simple_form'
 gem 'cloudinary', '~> 1.16.0'
+gem 'devise'
+gem 'omniauth-twitch'
+gem 'omniauth'
+gem 'therubyracer'
+gem 'omniauth-rails_csrf_protection'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
