@@ -29,6 +29,7 @@ gem 'omniauth-twitch'
 gem 'omniauth'
 gem 'therubyracer'
 gem 'omniauth-rails_csrf_protection'
+gem 'omniauth-twitter'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

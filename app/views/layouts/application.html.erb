@@ -13,7 +13,7 @@
   <body>
     <div class="navbar">
     <p>this is first draft nav-bar</p>
-    <%= button_to "Sign in with Twitch", user_twitch_omniauth_authorize_path, method: :post %>
+    <%= link_to "Sign in with Twitch", user_twitch_omniauth_authorize_path, method: :post %>
     </div>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
