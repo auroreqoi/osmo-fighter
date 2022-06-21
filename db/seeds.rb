@@ -1,9 +1,26 @@
 require "open-uri"
 require 'json'
 
+User.destroy_all
 Character.destroy_all
 
                             ###### TEST #####
+
+    ##### USER #####
+
+aurore = User.new(
+  email: 'auror@test.com',
+  password: 'password',
+  username: 'aurore'
+)
+aurore.save!
+
+admin = User.new(
+  email: 'admin@test.com',
+  password: 'password',
+  username: 'Administrateur',
+  status: 'admin'
+)
 
     ##### TIER C #####
 
