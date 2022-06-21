@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'pg'
 gem 'simple_form', github: 'heartcombo/simple_form'
 gem 'cloudinary', '~> 1.16.0'
+gem 'devise'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

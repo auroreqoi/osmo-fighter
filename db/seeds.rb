@@ -5,6 +5,22 @@ Character.destroy_all
 
                             ###### TEST #####
 
+    ##### USER #####
+
+aurore = User.new(
+  email: 'aurore@test.com',
+  password: 'password',
+  username: 'aurore'
+)
+aurore.save!
+
+admin = User.new(
+  email: 'admin@test.com',
+  password: 'password',
+  username: 'Administrateur',
+  status: 'admin'
+)
+
     ##### TIER C #####
 
 fantominus = Character.new(
