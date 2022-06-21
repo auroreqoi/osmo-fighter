@@ -1,6 +1,7 @@
 require "open-uri"
 require 'json'
 
+User.destroy_all
 Character.destroy_all
 
                             ###### TEST #####
@@ -8,7 +9,7 @@ Character.destroy_all
     ##### USER #####
 
 aurore = User.new(
-  email: 'aurore@test.com',
+  email: 'auror@test.com',
   password: 'password',
   username: 'aurore'
 )
